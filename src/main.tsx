@@ -64,7 +64,6 @@ if (typeof window !== 'undefined' && import.meta.env.DEV) {
     })
     .catch((error) => {
       console.error('MSW initialization failed:', error);
-      renderApp();
     });
 } else {
   renderApp();

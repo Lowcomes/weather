@@ -110,7 +110,10 @@ export const WeatherObservationTable: React.FC<WeatherObservationsTableProps> = 
         </Button>
       </Box>
 
-      <TableContainerStyled component={Paper} className="custom-scrollbar">
+      <TableContainerStyled
+        component={Paper}
+        className="custom-scrollbar"
+        style={{ maxHeight: '200px' }}>
         <Table stickyHeader>
           <TableHead>
             <TableRow>
